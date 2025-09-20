@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Joao Correa</title>
+    <link>https://jpviguini.github.io/_garden/</link>
+    <description>Recent content in Blog on Joao Correa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>João ©</copyright>
+    <lastBuildDate>Sun, 17 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jpviguini.github.io/_garden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Choosing things</title>
+      <link>https://jpviguini.github.io/_garden/essentialism/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/_garden/essentialism/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Learning how to cook from my roommates</title>
+      <link>https://jpviguini.github.io/_garden/cook/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/_garden/cook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://jpviguini.github.io/_garden/85_15/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/_garden/85_15/</guid>
+      <description>The optimal learning rate is: 85% success rate / 15% error rate&#xA;Difficulty should increase to keep the error rate at around that 15% mark&#xA;Dopamine is about random rewards, not always reward</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://jpviguini.github.io/_garden/animationapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/_garden/animationapp/</guid>
+      <description>Animation app Key problem: image size and file size </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://jpviguini.github.io/_garden/antifragility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/_garden/antifragility/</guid>
+      <description>What conditions need to be put in place for antifragility?&#xA;SPIRE model&#xA;Spiritual: sense of purpose, meaning -&amp;gt; more likely to overcome barries Physical: stress, sleep, exercise, nutrition -&amp;gt; take breaks Intellectual: people who are curious -&amp;gt; are happier and live longer. Deeply engaging with material (flow state) Relational: number one quality for antifragility is growing through our relationships. Emotional: gratitude.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://jpviguini.github.io/_garden/howtofindproblems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/_garden/howtofindproblems/</guid>
+      <description>https://www.indiehackers.com/post/how-do-you-find-problems-7da307ce6c</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://jpviguini.github.io/_garden/positivelybiased/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/_garden/positivelybiased/</guid>
+      <description>Positively biased It is almost impossible to escape irrational human cognitive bias.&#xA;Solution: use biases to our advantage.&#xA;For example: Leverage confirmation bias for social relationships. Instead of assuming bad intentions, assume good intentions.&#xA;How could other human biases be used to our advantage? Worth a re-read of &amp;ldquo;Thinking fast and slow&amp;rdquo;.&#xA;Naive optimism and life decisions Assume it is gonna work out&#xA;Reframe failures</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://jpviguini.github.io/_garden/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/_garden/research/</guid>
+      <description>KHIPU Talk&#xA;Expected cost matrix&#xA;Bayes decision theory&#xA;In pratice, bayes decisions may not be optimal&#xA;Depending on the cost matrix, two equal-accuracy systems may have widely different performance in practice&#xA;Cross-entropy: integrating over all possible cost matrices&#xA;Modern DNNs tend to have: high test accuracy, low cross-entropy&#xA;How to stop earlier? Temperature calibration of the posterior</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://jpviguini.github.io/_garden/tea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/_garden/tea/</guid>
+      <description>Manage TEA&#xA;Time, energy and attention You need to manage all three to reach flow. How to increase each of them?</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://jpviguini.github.io/_garden/thedoitallfrustration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/_garden/thedoitallfrustration/</guid>
+      <description>The do it all frustration Sometimes I find it hard to get focused because I have too many things to do. Kind of a paradox. The more things you have to do, the harder it can be to do them.&#xA;The solution: focusing on efficiency. Do not care about the progress you are making. Just pick a small part of anything. And do that small part well. If you enter flow great and, if you don&amp;rsquo;t, pick a small part of something else and do that well.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://jpviguini.github.io/_garden/thinkingfastandslow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/_garden/thinkingfastandslow/</guid>
+      <description>How do you stop yourself from tunnel vision when coding?&#xA;Which other areas of life do we tunnel vision in?</description>
+    </item>
+  </channel>
+</rss>

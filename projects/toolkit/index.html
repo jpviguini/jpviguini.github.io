@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&family=Frank+Ruhl+Libre:wght@200;300;400;500;600&family=Encode+Sans+Semi+Condensed:wght@400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/all.min.css">
+    <link disabled id="dark-mode-theme" rel="stylesheet" href="/css/dark.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/my_style.css">
+    
+    
+    
+    <title>Joao Correa | Image Processing Toolkit</title>
+    <meta name="description" content="A toolkit for image processing built from scratch in C, without external libraries.">
+</head><body><nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://jpviguini.github.io/">
+        
+        <b style="font-weight: 800;">JC</b>
+        
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+
+
+
+
+
+
+
+
+</nav><div id="content">
+
+<div class="container">
+    <div class="py-4 rounded-3">
+        <div class="container-fluid py-2 align-items-center d-flex justify-content-center">
+            
+            
+            <h1 class="display-2 mb-4">Image Processing Toolkit</h1>
+            
+        </div>
+        
+        <p class="text-center fs-4 fst-italic serif">A toolkit for image processing built from scratch in C, without external libraries.</p>
+        
+        <div class="text-center pt-4">
+            
+        </div>
+    </div>
+    <div class="row justify-content-center mb-5">
+        <div class="col-12">
+            <p class="card-date m-0">
+                
+                
+                    Created Mar 15, 2024 - 
+                
+                Last updated: Mar 15, 2024
+            </p>
+            <hr class="dropdown-divider">
+            <div class="row justify-content-between">
+                <div class="col-sm-4">
+                    
+                </div>
+                <div class="col-sm-8" style="text-align: right;">
+                    
+                
+                
+                    
+                    <span class="badge tag-badge">C</span>
+                    
+                    <span class="badge tag-badge">Image Processing</span>
+                    
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-2">
+        <div class="serif main-content">
+            <div style="text-align: center; margin-bottom: 3rem;">
+  <img src="/images/fusca/featured.png" 
+       alt="Image Processing Toolkit interface" 
+       style="width: 75%; max-width: 800px;">
+</div>
+<p>🌐 <strong>GitHub:</strong> <a href="https://github.com/jpviguini/image-processing-toolkit">Image Processing Toolkit</a></p>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>
+The <b>Image Processing Toolkit</b> is a project developed entirely in <b>C</b>, with no external libraries, to implement a wide range of fundamental image processing algorithms from scratch.  
+The main motivation was to build a deeper understanding of how core techniques work under the hood by manually handling pixel-level operations, memory management, and algorithmic optimizations.
+</p>
+<p>
+This toolkit demonstrates how low-level programming can be used to reproduce common computer vision operations efficiently, providing a solid foundation for more advanced applications.
+</p>
+<hr>
+<h2 id="some-features">Some features</h2>
+<p><strong>Logarithm Operator</strong></p>
+<p>
+A nonlinear transformation to compress the range of pixel intensities, useful for enhancing darker regions of an image.
+</p>
+<div style="text-align: center; margin-top: 20px;">
+  <img src="/images/fusca/featured.png" alt="Logarithm operator example" style="max-width: 80%;">
+  <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Example of the logarithm operator applied to an input image.</p>
+</div>
+<hr>
+<p><strong>Contrast Stretching</strong></p>
+<p>
+A transformation that increases the dynamic range of pixel intensities, improving the visual distinction between light and dark areas.
+</p>
+<div style="text-align: center; margin-top: 20px;">
+  <img src="/images/fusca/featured3.png" alt="Contrast stretching example" style="max-width: 80%;">
+  <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Contrast stretching applied to enhance image clarity.</p>
+</div>
+<hr>
+<p><strong>Flood Fill</strong></p>
+<p>
+Implements the classic region-filling algorithm, which is essential for segmentation and object isolation tasks.
+</p>
+<div style="text-align: center; margin-top: 20px;">
+  <img src="/images/fusca/featured2.png" alt="Flood fill example" style="max-width: 80%;">
+  <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Flood fill used to segment and highlight regions of an image.</p>
+</div>
+<hr>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<ul>
+<li>Implemented <strong>from scratch in C</strong>, without relying on OpenCV or other libraries.</li>
+<li>Strengthened knowledge of <strong>pixel-level manipulation</strong> and <strong>low-level memory management</strong>.</li>
+<li>Created a modular design that can be expanded with new operators and transformations.</li>
+</ul>
+
+        </div>
+    </div>
+</div>
+
+
+        </div><div class="footer-container row justify-content-between">
+    <div class="col-sm-4">
+        <p class="footer">João © 2025 </p>
+    </div>
+    <div class="col-sm-6 d-flex flex-row-reverse">
+        
+        <a class="footer-social px-2"  href="https://github.com/jpviguini" target="_blank"><i class="fab fa-github"></i></a>
+        
+        <a class="footer-social px-2"  href="https://www.linkedin.com/in/jpviguini/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        
+    </div>
+</div>
+<script src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script src="/js/isotope.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+<script src="/js/dark.js"></script>
+<script src="/js/isotope.js"></script>
+<script src="/js/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true, securityLevel: 'loose'});</script></body>
+</html>

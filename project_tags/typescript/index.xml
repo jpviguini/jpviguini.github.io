@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TypeScript on Joao Correa</title>
+    <link>https://jpviguini.github.io/project_tags/typescript/</link>
+    <description>Recent content in TypeScript on Joao Correa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>João ©</copyright>
+    <lastBuildDate>Tue, 18 Sep 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jpviguini.github.io/project_tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orquidea</title>
+      <link>https://jpviguini.github.io/projects/orquidea/</link>
+      <pubDate>Tue, 18 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/projects/orquidea/</guid>
+      <description>A ReactJS web application for exploring researcher metrics using ORCID API</description>
+    </item>
+  </channel>
+</rss>

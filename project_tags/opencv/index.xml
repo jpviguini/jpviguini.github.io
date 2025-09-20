@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenCV on Joao Correa</title>
+    <link>//localhost:1313/project_tags/opencv/</link>
+    <description>Recent content in OpenCV on Joao Correa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Joao ©</copyright>
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/project_tags/opencv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpellNet: Real-Time Multilingual Sign Language Detection</title>
+      <link>//localhost:1313/projects/compila/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/compila/</guid>
+      <description>A system for real-time detection and recognition of sign languages (LIBRAS and ASL), enabling accessibility and human-computer interaction.</description>
+    </item>
+  </channel>
+</rss>

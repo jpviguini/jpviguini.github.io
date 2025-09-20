@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project_tags on Joao Correa</title>
+    <link>https://jpviguini.github.io/project_tags/</link>
+    <description>Recent content in Project_tags on Joao Correa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>João ©</copyright>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jpviguini.github.io/project_tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://jpviguini.github.io/project_tags/ai/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bioinformatics</title>
+      <link>https://jpviguini.github.io/project_tags/bioinformatics/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/bioinformatics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Embedding Models</title>
+      <link>https://jpviguini.github.io/project_tags/embedding-models/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/embedding-models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NLP</title>
+      <link>https://jpviguini.github.io/project_tags/nlp/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/nlp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://jpviguini.github.io/project_tags/python/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C</title>
+      <link>https://jpviguini.github.io/project_tags/c/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/c/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Image Processing</title>
+      <link>https://jpviguini.github.io/project_tags/image-processing/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/image-processing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CNNs</title>
+      <link>https://jpviguini.github.io/project_tags/cnns/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/cnns/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computer Vision</title>
+      <link>https://jpviguini.github.io/project_tags/computer-vision/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Feature Extraction</title>
+      <link>https://jpviguini.github.io/project_tags/feature-extraction/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/feature-extraction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LSTM</title>
+      <link>https://jpviguini.github.io/project_tags/lstm/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/lstm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tensorflow</title>
+      <link>https://jpviguini.github.io/project_tags/tensorflow/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API</title>
+      <link>https://jpviguini.github.io/project_tags/api/</link>
+      <pubDate>Tue, 18 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ReactJS</title>
+      <link>https://jpviguini.github.io/project_tags/reactjs/</link>
+      <pubDate>Tue, 18 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/reactjs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TypeScript</title>
+      <link>https://jpviguini.github.io/project_tags/typescript/</link>
+      <pubDate>Tue, 18 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/typescript/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

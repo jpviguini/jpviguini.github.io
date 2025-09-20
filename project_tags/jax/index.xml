@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JAX on Pedro Martelleto</title>
+    <link>//localhost:1313/project_tags/jax/</link>
+    <description>Recent content in JAX on Pedro Martelleto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Pedro ©</copyright>
+    <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/project_tags/jax/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Issues in detecting COVID-19 from X-Rays</title>
+      <link>//localhost:1313/projects/covid-xrays/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/covid-xrays/</guid>
+      <description>Mitigating issues of current approaches to image-based COVID-19 diagnosis</description>
+    </item>
+  </channel>
+</rss>
