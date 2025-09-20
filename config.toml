@@ -1,0 +1,63 @@
+baseURL = "https://jpviguini.github.io/"
+languageCode = "en-us"
+title = "Joao Correa"
+theme = "hugo-digital-garden-theme"
+copyright = "João ©"
+themesDir = "./hugo-themes/"
+
+[params]
+  name = "Joao Correa"
+  description = ""
+  initials = "JC"
+  googleAnalytics = ""
+
+  [[params.social]]
+    name = "Github"
+    link = "https://github.com/jpviguini"
+    icon = "fab fa-github"
+
+  [[params.social]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/jpviguini/"
+    icon = "fab fa-linkedin-in"
+
+[menu]
+  # [[menu.main]]
+  #   name = "Blog"
+  #   url = "/garden/"
+  #   weight = 1
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+#  [[menu.main]]
+#    name = "Projects"
+#    url = "/projects/"
+#    weight = 2
+#  [[menu.main]]
+#    name = "About"
+#    url = "/about/"
+#    weight = 3
+
+
+[taxonomies]
+  garden_tags = 'garden_tags'
+  project_tags = 'project_tags'
+  library_tags = 'library_tags'
+
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.extensions]
+    definitionList = true
+    footnote = true
+    linkify = true
+    strikethrough = true
+    table = true
+    taskList = true
+    typographer = true
+  [markup.highlight]
+    # Choose from https://xyproto.github.io/splash/docs/all.html
+    style = 'monokailight'
