@@ -1,7 +1,7 @@
 ---
 title: "Image Processing Toolkit"
 icon: ""
-date: 2024-03-15
+date: 2023-03-15
 grad: "grad-2"
 draft: false
 project_tags: ["C", "Image Processing"]
