@@ -45,20 +45,6 @@
       <description></description>
     </item>
     <item>
-      <title>C</title>
-      <link>https://jpviguini.github.io/project_tags/c/</link>
-      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://jpviguini.github.io/project_tags/c/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Image Processing</title>
-      <link>https://jpviguini.github.io/project_tags/image-processing/</link>
-      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://jpviguini.github.io/project_tags/image-processing/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>CNNs</title>
       <link>https://jpviguini.github.io/project_tags/cnns/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
@@ -91,6 +77,20 @@
       <link>https://jpviguini.github.io/project_tags/tensorflow/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://jpviguini.github.io/project_tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C</title>
+      <link>https://jpviguini.github.io/project_tags/c/</link>
+      <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/c/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Image Processing</title>
+      <link>https://jpviguini.github.io/project_tags/image-processing/</link>
+      <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://jpviguini.github.io/project_tags/image-processing/</guid>
       <description></description>
     </item>
     <item>
