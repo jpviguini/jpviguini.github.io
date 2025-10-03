@@ -10,7 +10,7 @@
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jpviguini.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gene Discovery in ALS with Language Models</title>
+      <title>Gene Discovery in ALS with Embedding Models</title>
       <link>https://jpviguini.github.io/projects/als_genes/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://jpviguini.github.io/projects/als_genes/</guid>
