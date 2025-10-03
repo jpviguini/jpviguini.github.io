@@ -10,7 +10,7 @@
     <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/project_tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gene discovery with language models</title>
+      <title>Gene discovery with embedding models</title>
       <link>//localhost:1313/projects/aiplayground/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/projects/aiplayground/</guid>
