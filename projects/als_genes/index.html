@@ -96,22 +96,23 @@
 <p><strong>This research is supported by a FAPESP undergraduate fellowship</strong> (<a href="https://bv.fapesp.br/en/bolsas/228539/temporal-prediction-of-genetic-associations-in-als-through-nlp-and-complex-network-analysis/">grant link</a>).</p>
 <h3 id="overview">Overview</h3>
 <p><strong>Amyotrophic Lateral Sclerosis (ALS)</strong> is a progressive and fatal neurodegenerative disorder with complex genetic roots. A major challenge in understanding ALS is translating findings from Genome-Wide Association Studies (GWAS) into biological insights. GWAS can identify genomic regions associated with the disease, but these regions often contain multiple genes, making it incredibly difficult to pinpoint the single <strong>true causal gene</strong> responsible for the association.</p>
-<p>This project addresses this critical bottleneck by developing a novel computational framework that integrates <strong>statistical genetics</strong> with <strong>Natural Language Processing (NLP)</strong>. We use advanced language models, like BioBERT and fastText, to analyze a vast corpus of biomedical literature. By learning how genes are described and functionally related in scientific papers, we can create &ldquo;biologically informed&rdquo; models with <strong>word embeddings</strong> that guide the statistical analysis, dramatically improving our ability to identify high-confidence candidate genes for ALS.</p>
+<p>This project addresses this critical bottleneck by developing a novel computational framework that integrates <strong>statistical genetics</strong> with <strong>Natural Language Processing (NLP)</strong>. We use embedding models (e.g., Word2Vec and fastText), to analyze a vast corpus of biomedical literature. By learning how genes are described and functionally related in scientific papers, we can create &ldquo;biologically informed&rdquo; models with <strong>word embeddings</strong> that guide the statistical analysis, dramatically improving our ability to identify high-confidence candidate genes for ALS.</p>
 <h3 id="how-does-it-work">How does it work?</h3>
 <p>The methodology is a multi-stage pipeline designed to bridge the gap between statistical association and biological function.</p>
 <p><strong>1. Data Acquisition &amp; Corpus Building</strong></p>
 <p>First, we gather two primary types of data: large-scale ALS GWAS summary statistics (containing data from over 27,000 cases and 122,000 controls) and a specialized text corpus built from approximately 70,000 PubMed article abstracts related to ALS genetics.</p>
 <p><strong>2. Learning Gene Function with Word Embeddings</strong></p>
-<p>Using the text corpus, we train language models (BioBERT) to generate &ldquo;gene embeddings&rdquo;: numerical vector representations for every gene. These embeddings capture the aggregated functional profile of a gene based on its context across thousands of research articles. This allows us to quantify the functional relationships between genes.</p>
+<p>Using the text corpus, we train embedding models to generate &ldquo;gene embeddings&rdquo;: numerical vector representations for every gene. These embeddings capture the aggregated functional profile of a gene based on its context across thousands of research articles. This allows us to quantify the functional relationships between genes.</p>
 <p><strong>3. Integrating Biological Priors into Fine-Mapping</strong></p>
 <p>This is the core innovation. Instead of assuming all genes in a GWAS locus are equally likely to be causal, we use our embeddings to calculate a &ldquo;prior probability&rdquo; for each gene. Genes that are semantically similar to well-established ALS genes (like <i>SOD1</i> or <i>C9orf72</i>) receive a higher initial probability. This prior knowledge is then integrated into a Bayesian fine-mapping model (FINEMAP) to refine the GWAS signals.</p>
 <p><strong>4. Gene Prioritization and Validation</strong></p>
-<p>The final output is a ranked list of candidate genes supported by both statistical evidence from patient data and functional evidence from the literature. We performed a temporal validation by training a model on literature before 2010 and successfully &ldquo;predicted&rdquo; the discovery of the ALS gene <em>KIF5A</em> (which was only linked to ALS in 2018), demonstrating the powerful predictive capability of the framework.</p>
+<p>The final output is a ranked list of candidate genes supported by both statistical evidence from patient data and functional evidence from the literature.</p>
 <p>Here is a diagram illustrating how we calculate the functional similarity between a candidate gene and known ALS genes:</p>
 <div style="text-align: center; margin-top: 20px;">
   <img src="/images/genes/featured2.jpg" alt="Diagram of cosine similarity calculation for gene embeddings" style="max-width: 80%;"></img>
   <p style="font-size: 0.9em; color: #666; margin-top: 5px;">The relevance score for a candidate gene is the maximum cosine similarity between its vector and the vectors of known ALS genes.</p>
 </div>
+<p>For this task, we also compute the dot product between the candidate gene and the word "ALS".</p>
 <h3 id="authors">Authors</h3>
 <div style="font-size: 0.9em;">
 <strong>João Pedro Viguini T. T. Correa</strong> – Undergraduate Research Fellow (FAPESP), University of São Paulo (USP)  
