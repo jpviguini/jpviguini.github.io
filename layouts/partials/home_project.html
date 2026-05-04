@@ -1,21 +1,27 @@
-{{ $img := (.Resources.ByType "image").GetMatch "*featured*" }}
+{{ $img := "" }}
+{{ with .Params.card_image }}
+    {{ $img = $.Resources.GetMatch . }}
+{{ end }}
+{{ if not $img }}
+    {{ $img = (.Resources.ByType "image").GetMatch "*featured*" }}
+{{ end }}
 {{ $video := (.Resources.ByType "video").GetMatch "*featured*" }}
 
 {{ if $video }}
 <div class="video-card">
     <video autoplay loop muted playsinline class="card-img-top">
-        <source src="{{ $video.Permalink }}" type="{{ $video.MediaType.Type }}">
+        <source src="{{ $video.RelPermalink }}" type="{{ $video.MediaType.Type }}">
         Your browser does not support the video tag.
     </video>
     <div class="video-overlay"></div>
 </div>
 {{ else if $img }}
-<img src="{{ $img.Permalink }}" alt="{{ .Title }}" class="card-img-top">
+<img src="{{ $img.RelPermalink }}" alt="{{ .Title }}" class="card-img-top">
 {{ end }}
 <div class="card-body">
     <h5 class="card-title">{{ .Title }}</h5>
     <p class="card-text">{{ .Summary }}</p>
-    <a href="{{ .Permalink }}" class="stretched-link"></a>
+    <a href="{{ .RelPermalink }}" class="stretched-link"></a>
     <div class="row justify-content-between">
         <div class="col align-self-end" style="text-align: right">
             {{ partial "status.html" . }}

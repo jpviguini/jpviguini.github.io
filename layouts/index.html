@@ -56,14 +56,14 @@
 					<div class="card">
 						{{ $img := (.Resources.ByType "image").GetMatch "*featured*" }}
 						{{ with $img }}
-						<img src="{{ .Permalink }}" alt="{{ $.Title }}" class="card-img-top">
+						<img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="card-img-top">
 						{{ end }}
 						<div class="card-body">
 							<h5 class="card-title">{{ .Title }}</h5>
 							<p class="card-text">
 							<figcaption class="blockquote-footer">{{ .Params.Author}}</figcaption>
 							</p>
-							<a href="{{ .Permalink }}" class="stretched-link"></a>
+							<a href="{{ .RelPermalink }}" class="stretched-link"></a>
 						</div>
 					</div>
 				</div>

@@ -1,10 +1,11 @@
 ---
-title: "Gene Discovery in ALS with Language Models"
+title: "Gene Prioritization with Word Embeddings and Protein Networks"
 date: 2025-01-01
 grad: "grad-1"
 draft: false
-project_tags: ["Embedding models", "AI", "Bioinformatics", "NLP", "Python"]
-summary: "Prioritizing causal genes in ALS by integrating statistical genetics with word embeddings from biomedical literature."
+project_tags: ["Word Embeddings", "Bioinformatics", "NLP", "Protein Network Analysis"]
+summary: "Prioritizing candidate genes in ALS by integrating genetics with word embeddings."
+card_image: "featured3-1.png"
 categories: ["research"]
 params:
   index: 1
@@ -12,15 +13,20 @@ weight: 1
 
 ---
 
-<div style="text-align: center; margin-bottom: 3rem;">
-  <img src="/images/genes/featured-1.png" alt="Gene similarity network for ALS" style="max-width: 100%;"></img>
-</div>
+
+<p style="text-align: center; margin: 0 0 2rem 0;">
+  <img
+    src="featured3-1.png"
+    alt="ALS gene prioritization overview"
+    style="width: 25%; max-width: 1100px; height: auto;"
+  >
+</p>
 
 
-## 🧬 Gene Prioritization in ALS with Language Models
-**Unsupervised ALS Gene Discovery from Biomedical Literature Using Static and Contextual Embeddings**
+## 🧬 Gene Prioritization with Word Embeddings and Protein Networks
 
-📅 **Research Period:** Jul 2025 – Jul 2026 [currently in development]
+
+📅 **Research Period:** Jul 2025 – Jul 2026
 
 🌐 **GitHub:** [Gene discovery](https://github.com/jpviguini/als-genes)  
 
@@ -31,53 +37,43 @@ weight: 1
 
 ### Overview
 
-**Amyotrophic Lateral Sclerosis (ALS)** is a fatal and highly heterogeneous neurodegenerative disease, with dozens of genes implicated across different patient subtypes. While large-scale genetic studies have identified many associated loci, translating these signals into clear **causal gene hypotheses** remains a major challenge.
+Amyotrophic Lateral Sclerosis (ALS) is a fatal and highly heterogeneous neurodegenerative disease with multiple genetic and molecular contributors. Although GWAS and sequencing studies have identified important ALS-associated loci and genes, translating these signals into clear causal gene hypotheses remains a major challenge.
 
-This project explores an alternative, fully **unsupervised discovery paradigm**: instead of relying solely on genetic data, we mine **decades of biomedical literature** to identify genes that are consistently discussed in functionally meaningful contexts related to ALS. By leveraging **language models**, we capture latent semantic signals that reflect biological relevance, even before formal genetic confirmation.
+This project investigates whether biomedical literature embeddings can provide functional context for ALS gene prioritization. Instead of treating text-derived representations as standalone predictors, the project combines them with tissue-expression features from the Human Protein Atlas (HPA) and compares the resulting functional signal with GWAS-derived evidence.
+
+The main finding is that literature-derived embeddings did not consistently improve locus-level gene ranking, but the Word2Vec embedding space showed biologically interpretable structure. In protein network analyses, the Word2Vec/HPA model converged with GWAS-derived evidence at the level of protein interaction modules, suggesting that text-derived representations may be most useful for systems-level biological interpretation.
 
 ---
 
 ### Method at a Glance
 
-<div style="text-align: center; margin: 2.5rem 0;">
-  
-  <img src="featured-1.png" alt="Literature-based gene prioritization pipeline" style="max-width: 90%;">
-</div>
+<!-- Ajuste o tamanho mudando width -->
+<p style="text-align: center; margin: 2rem 0;">
+  <img
+    src="featured-1.png"
+    alt="ALS gene prioritization and network analysis pipeline"
+    style="width: 75%; max-width: 1200px; height: auto;"
+  >
+</p>
 
-At a high level, the workflow consists of four stages:
+At a high level, the workflow consists of five stages:
 
-- **Literature collection:** We construct a large ALS-focused corpus (~140k PubMed abstracts after preprocessing, spanning 1970–2026), with disease mentions normalized into a single token.
-- **Gene representation:** Each gene is embedded into a vector space using both **static models** (Word2Vec, FastText) and **contextual models** (BERT, BioBERT, PubMedBERT, SciBERT).
-- **Evidence aggregation:** For contextual models, gene–disease similarity is computed across multiple articles and summarized using a **Multiple Instance Learning** framework, capturing strong and recurrent disease-specific contexts.
-- **Gene ranking:** Genes are ranked by their semantic proximity to ALS, producing a prioritized list of candidate genes.
+- **Literature collection:** We construct disease-focused PubMed corpora for neurodegenerative and motor neuron disease contexts using ontology-guided search terms.
+- **Gene representation:** Each gene is represented using literature-derived embeddings, with **Word2Vec** used as the main interpretable embedding model and PubMedBERT explored as a complementary contextual representation.
+- **Feature integration:** Gene embeddings are reduced with PCA and combined with **HPA brain and muscle expression** features to build a functional gene-prioritization model.
+- **Locus-level evaluation:** Logistic-regression models are evaluated on ALS-associated GWAS loci to test whether text-derived features improve candidate-gene ranking.
+- **Network interpretation:** Functional scores from the Word2Vec/HPA model are compared with GWAS-derived evidence through protein-network propagation, module enrichment, and Gene Ontology analysis.
+
+
+
+<p style="text-align: center; margin: 2rem 0;">
+  <img
+    src="featured2-1.png"
+    alt="ALS network analysis output"
+    style="width: 75%; max-width: 1400px; height: auto;"
+  >
+</p>
+
 
 
 ---
-
-
-### Temporal Discovery Signal
-
-
-Beyond retrospective ranking, we evaluate whether literature-based embeddings can detect **early discovery signals**. Using a temporal analysis with static embeddings, the model successfully highlights genes **years before** their formal association with ALS appears in curated genetic studies, demonstrating the potential of language models as tools for hypothesis generation.
-
-<div style="text-align: center; margin: 2.5rem 0;">
-  
-  <img src="/images/genes/featured2-1.png" alt="Literature-based gene prioritization pipeline" style="max-width: 90%;">
-</div>
-
-
----
-
-
-### Authors  
-
-<div style="font-size: 0.9em;">
-<strong>João Pedro Viguini T. T. Correa</strong> – Undergraduate Research Fellow (FAPESP), University of São Paulo (USP)  
-
-<strong>Ricardo Cerri</strong> – Assistant Professor, University of São Paulo (USP)  
-</div>
-
-
-
-
-
